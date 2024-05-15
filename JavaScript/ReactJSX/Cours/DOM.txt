@@ -1,0 +1,18 @@
+Un élément JSX est rendu.
+L'ensemble du DOM virtuel est mis à jour.
+Le DOM virtuel est comparé à ce qu'il était avant la mise à jour pour déterminer quels objets ont changé.
+Les objets modifiés, et uniquement les objets modifiés, sont mis à jour dans le DOM réel.
+Les changements dans le DOM réel entraînent des changements dans l'écran.
+
+
+    Le composant React est un petit morceau de code réutilisable qui est responsable d'une tâche, qui consiste souvent à rendre du HTML et à le rendre à nouveau chaque fois que certaines données changent.
+    Il est utile de considérer les composants comme des éléments plus petits de notre interface. Combinés, ils constituent les blocs de construction d'une application React.
+    Dans un site web, nous pouvons créer un composant pour la barre de recherche, un autre pour la barre de navigation et un autre pour le contenu du tableau de bord lui-même.
+
+    Voici une autre information sur les composants : nous pouvons utiliser des fonctions JavaScript pour définir un nouveau composant React.
+    C'est ce qu'on appelle un composant fonctionnel.
+
+    Auparavant, les composants React étaient définis à l'aide de classes JavaScript.
+    Mais depuis l'introduction des Hooks, les composants fonctionnels sont devenus la norme dans les applications React modernes.
+    Nous pouvons utiliser des fonctions pour définir des composants React.
+    
